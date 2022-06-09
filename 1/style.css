@@ -1,0 +1,10 @@
+hr.linha{
+    border: 3px solid blue;
+    width: 90px;
+  }
+
+div.master{
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+}

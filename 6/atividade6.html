@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./clientes.html" method="post">
+        <fieldset>
+            <input type="hidden" name="tokenAcess" value="agshas">
+            <legend>Cadastro de Clientes</legend>
+            <label>Nome</label><br/>
+            <input name="Nome"
+            required=""
+            type="text"
+            maxlength="30"
+            placeholder="Digite seu nome">
+            <br/>
+            <br/>
+            <label>Endereço</label>
+            <br/>
+            <input name="Endereco"
+            required=""
+            type="text"
+            size="100"
+            maxlength="50"
+            placeholder="Digite seu Endereço"> 
+            <br/>
+            <br/>
+            <label>Email</label>
+            <br/>
+            <input name="Email"
+            required=""
+            type="email"
+            placeholder="Digite seu Email"> 
+            <br/>
+            <br/>
+            <input type="checkbox" required="">
+            <label>Desejo receber newsletter</label>
+            <br/>
+        </form>
+        <br/>
+        <input type="submit" value="Cadastrar">
+        <input type="reset" value="Cancelar">
+    </fieldset>
+</fieldset>
+</body>
+</html>
