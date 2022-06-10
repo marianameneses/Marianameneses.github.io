@@ -3,13 +3,18 @@ html,body{
 }
 h1{
     font-family: cursive;
-    color: rgba(202, 148, 202, 0.938);
+    color: rgba(2, 0, 2, 0.938);
 }
 li{
     display: grid;
     display: flex;
+    color: rgb(254, 223, 255);
 }
 fieldset{
     color: rgba(68, 58, 68, 0.938);;
-    background-color: rgba(202, 148, 202, 0.938);
+    background-color: rgba(0, 0, 0, 0.938);
+}
+a{
+    color: azure;
+    
 }
