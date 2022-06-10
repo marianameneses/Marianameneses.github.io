@@ -1,0 +1,128 @@
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col"] {
+    float: left;
+    padding: 15px;
+}
+
+[class*="col"] {
+    width: 100%;
+}
+
+.img.col1{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+
+.deck {
+    width: 100%;
+}
+
+.banner {
+    position: relative;
+    padding: 0;
+    width: 100%;
+}
+
+#ban {
+    width: 100%;
+    padding: 0;
+    margin: 0%;
+}
+
+.banner-center {
+    position: absolute;
+    align-content: space-between;
+    color: white;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.boxes>img {
+    padding: 15px;
+    width: 45%;
+    height: 45%;
+}
+
+.boxes>p {
+    letter-spacing: 0.15em;
+    justify-content: center;
+    align-self: center;
+}
+
+.boxesx,
+.boxesx>img {
+    align-items: center;
+    text-align: center;
+    padding: 15px, 15px, 15px, 15px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-bottom {
+    background-color: rgb(243, 243, 242)
+}
+
+.button {
+    background-color: rgb(233, 92, 60);
+    height: 45px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 25px;
+}
+
+footer {
+    background-color: rgb(28, 28, 28);
+    position: absolute;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
