@@ -1,0 +1,30 @@
+body {
+    background-color: #dddddd;
+}
+h2 {
+    color: #dd0000;
+    margin-top: 15px;
+}
+img {
+    position: relative;
+    width: 30%;
+    height: 70%;
+    right: -40px;
+    top: 15px;
+}
+div {
+    display: flex;
+    width: 250px;
+
+}
+#f1 {
+    background-color: #ffcc66;
+    text-align: center;
+    color: #dd0000;
+    font-weight: bold;
+}
+#f2 {
+    background-color: #ffffcc;
+    text-align: center;
+    color: #dd0000;
+}

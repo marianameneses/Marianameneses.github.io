@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#main-content {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    border: 1px solid #DDDDDD;
+    border-radius: 20px;
+    margin: 20px;
+    padding-top: 90px;
+}
+.titulo {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+.titulo-title {
+    margin-bottom: 10px;
+}
+.titulo-subtitle {
+    font-weight: 400;
+}
+.caixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    padding: 50px 0;
+    margin: 50px 0;
+    gap: 20px;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 228px;
+    border: 1px solid #DDDDDD;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px 0;
+}
+.bola {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #DDDDDD;
+    border-radius: 40px;
+    margin-right: 10px;
+}
+.texto {
+    font-weight: 400;
+}
+#final {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 50px;
+}
+.final-text {
+    font-size: 12px;
+    max-width: 500px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.final-button {
+    background-color: #535353;
+    border: 0;
+    color: #FFFFFF;
+    font-weight: 700;
+    padding: 8px 6px;
+    border-radius: 10px;
+}
